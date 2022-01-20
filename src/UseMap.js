@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "antd";
-import { useMap } from "@umijs/hooks/es/useMap";
+import { useMap } from "@umijs/hooks";
 export default () => {
   const [map, { set, setAll, remove, reset, get }] = useMap([
     ["msg", "hello world"],
