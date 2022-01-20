@@ -1,5 +1,5 @@
 import React from "react";
-import UseToggle from "./UseToggle";
+import UseMap from "./UseMap";
 export default () => {
-  return <UseToggle />;
+  return <UseMap />;
 };
